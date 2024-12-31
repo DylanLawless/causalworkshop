@@ -28,3 +28,10 @@ to put the materials:
 ``` r
 causalworkshop::install_workshop("a/path/on/your/computer")
 ```
+
+Alternatively, you can download and install using devtools:
+
+```r
+install.packages("devtools")
+devtools::install_github("r-causal/causalworkshop")
+```
